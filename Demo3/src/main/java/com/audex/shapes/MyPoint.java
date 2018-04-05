@@ -29,8 +29,7 @@ public void setY(int y){
 //New in this class program
 public int[] getXY(){
 
-	
-	
+
 	//2nd Way of doing
 
 	//3rd way : Anonymous Array
@@ -45,7 +44,6 @@ public void setXY(int x, int y){
 public double distance(int x, int y){
 	int diffX = x-this.x;
 	int diffY = y-this.y;
-	
 	return Math.sqrt((diffX * diffX) + (diffY * diffY));
 }
 
@@ -62,6 +60,5 @@ public double distance(){
 public String toString(){
 	return "(" + this.x + "," + this.y + ")";
 }
-
 
 }
