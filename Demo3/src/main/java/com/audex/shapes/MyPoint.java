@@ -44,7 +44,7 @@ public void setXY(int x, int y){
 public double distance(int x, int y){
 	int diffX = x-this.x;
 	int diffY = y-this.y;
-	return Math.sqrt((diffX * diffX) + (diffY * diffY));
+	return Math.sqrt((diffX * diffX) + (double)(diffY * diffY));
 }
 
 public double distance(MyPoint anotherPoint){

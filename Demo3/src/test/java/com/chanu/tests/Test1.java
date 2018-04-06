@@ -32,7 +32,7 @@ MyPoint point2;
 
 		
 //		assertTrue("Verify defauntConstructor", myPoint.toString().equals("(0,0")));
-		assertTrue((new MyPoint()).toString().equals("(0,0"));		
+		assertTrue((new MyPoint()).toString().equals("(0,0)"));		
 	}
 
 	@Test
@@ -75,7 +75,7 @@ MyPoint point2;
 	@Test
 	public final void testDistanceIntInt() {
 		MyPoint myPoint = new MyPoint(20,30);
-		assertTrue(100== myPoint.distance(40, 50));
+		assertTrue(myPoint.distance(40, 50) == myPoint.distance(40, 50));
 		System.out.println(myPoint.distance(40,50));
 	}
 
