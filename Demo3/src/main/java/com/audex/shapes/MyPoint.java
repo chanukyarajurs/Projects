@@ -50,7 +50,7 @@ public double distance(int x, int y){
 public double distance(MyPoint anotherPoint){
 	int diffX = anotherPoint.getX() - this.x;
 	int diffY = anotherPoint.getY() - this.y;
-	return (Math.sqrt((diffX * diffX) + (diffY * diffY)));
+	return (Math.sqrt((diffX * diffX) + (double)(diffY * diffY)));
 }
 
 public double distance(){

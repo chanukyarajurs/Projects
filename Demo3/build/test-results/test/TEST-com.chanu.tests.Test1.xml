@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.chanu.tests.Test1" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-04-06T16:15:08" hostname="jayagithi" time="0.006">
+<testsuite name="com.chanu.tests.Test1" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-04-09T07:18:18" hostname="jayagithi" time="0.007">
   <properties/>
-  <testcase name="testDistanceIntInt" classname="com.chanu.tests.Test1" time="0.002"/>
-  <testcase name="testGetXY" classname="com.chanu.tests.Test1" time="0.002"/>
+  <testcase name="testDistanceIntInt" classname="com.chanu.tests.Test1" time="0.003"/>
+  <testcase name="testGetXY" classname="com.chanu.tests.Test1" time="0.001"/>
   <testcase name="testSetXY" classname="com.chanu.tests.Test1" time="0.0"/>
   <testcase name="testGetX" classname="com.chanu.tests.Test1" time="0.0"/>
   <testcase name="testGetY" classname="com.chanu.tests.Test1" time="0.0"/>
@@ -10,7 +10,7 @@
   <testcase name="testSetY" classname="com.chanu.tests.Test1" time="0.0"/>
   <testcase name="testToString" classname="com.chanu.tests.Test1" time="0.0"/>
   <testcase name="testDistanceMyPoint" classname="com.chanu.tests.Test1" time="0.0"/>
-  <testcase name="testMyPointIntInt" classname="com.chanu.tests.Test1" time="0.0"/>
+  <testcase name="testMyPointIntInt" classname="com.chanu.tests.Test1" time="0.001"/>
   <testcase name="testDistance" classname="com.chanu.tests.Test1" time="0.0"/>
   <testcase name="testMyPoint" classname="com.chanu.tests.Test1" time="0.0"/>
   <system-out><![CDATA[28.284271247461902
